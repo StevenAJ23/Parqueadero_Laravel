@@ -43,24 +43,25 @@
 
                             <td>{{ $vehiculo->created_at->format('d/m/Y H:i') }}</td>
 
+                            {{-- 🔥 MEJORA CLAVE PARA MÓVILES --}}
                             <td class="text-center">
-                                <a href="{{ route('vehiculos.edit', $vehiculo) }}"
-                                   class="btn btn-sm btn-warning">
-                                    ✏️ Editar
-                                </a>
+                                <div class="d-flex flex-column flex-md-row gap-2 justify-content-center">
+                                    <a href="{{ route('vehiculos.edit', $vehiculo) }}"
+                                       class="btn btn-sm btn-warning">
+                                        ✏️ Editar
+                                    </a>
 
-                                <form action="{{ route('vehiculos.destroy', $vehiculo) }}"
-                                      method="POST"
-                                      class="d-inline">
-                                    @csrf
-                                    @method('DELETE')
+                                    <form action="{{ route('vehiculos.destroy', $vehiculo) }}"
+                                          method="POST"
+                                          onsubmit="return confirm('¿Eliminar vehículo?')">
+                                        @csrf
+                                        @method('DELETE')
 
-                                    <button type="submit"
-                                            class="btn btn-sm btn-danger"
-                                            onclick="return confirm('¿Eliminar vehículo?')">
-                                        🗑️ Eliminar
-                                    </button>
-                                </form>
+                                        <button type="submit" class="btn btn-sm btn-danger">
+                                            🗑️ Eliminar
+                                        </button>
+                                    </form>
+                                </div>
                             </td>
                         </tr>
                     @endforeach
