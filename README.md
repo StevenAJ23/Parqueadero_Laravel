@@ -254,7 +254,7 @@ Las capturas se encuentran almacenadas en la carpeta `/capturas` del repositorio
 </p>
 
 <p align="center">
-  <img src="assets/puce.png" alt="PUCE" width="80">
+  <img src="assets/puce.png" alt="PUCE" width="150">
 </p>
 
 ---
