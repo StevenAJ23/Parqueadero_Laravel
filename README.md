@@ -187,10 +187,75 @@ Este proyecto fue desarrollado con un enfoque académico y práctico, priorizand
 
 ---
 
+## 🖼️ Evidencias del Sistema
+
+A continuación, se presentan evidencias visuales del correcto funcionamiento del sistema **Parking Express – MVC**, demostrando el cumplimiento de los requisitos funcionales y técnicos del CRUD.
+
+---
+
+### 📋 Listado de Vehículos
+Visualización general de los vehículos registrados en el sistema.
+
+![Listado de vehículos](capturas/VehiculosCreados.png)
+
+---
+
+### 📝 Registro de Vehículos
+Formulario para el ingreso de nuevos vehículos con validaciones aplicadas.
+
+![Registro de vehículos](capturas/RegistroVehiculos.png)
+
+---
+
+### ✏️ Edición de Vehículos
+Pantalla de edición para la actualización de información de un vehículo existente.
+
+![Edición de vehículos](capturas/EditarVehiculo.png)
+
+---
+
+### ⏱️ Registro Automático de Fecha y Hora
+Evidencia del registro automático de fecha y hora al crear un vehículo.
+
+![Fecha y hora automática](capturas/FechaHora.png)
+
+---
+
+### 🧹 Política de Eliminación Lógica (Soft Delete)
+Demostración de la política de eliminación lógica aplicada a los registros del sistema.
+
+![Soft Delete](capturas/PoliticaEliminacion.png)
+
+---
+
+### 🗃️ Registros Eliminados en Base de Datos
+Visualización de los registros eliminados lógicamente almacenados en la base de datos.
+
+![Registros eliminados en BDD](capturas/VehiculosEliminadosBDD.png)
+
+---
+
+### 📱 Vista Móvil (Responsive)
+Adaptación del sistema a dispositivos móviles utilizando Bootstrap 5.
+
+![Vista móvil](capturas/InterfazMovil.png)
+
+---
+
+Las capturas se encuentran almacenadas en la carpeta `/capturas` del repositorio.
+--
+
 ## 👨‍💻 Autor
 
-**Steven Ariel Rosero**
-Estudiante de Ingeniería en Sistemas – PUCE
+<p align="center">
+  <strong>Steven Ariel Rosero</strong><br>
+  Estudiante de Ingeniería en Sistemas<br>
+  Pontificia Universidad Católica del Ecuador
+</p>
+
+<p align="center">
+  <img src="assets/puce.png" alt="PUCE" width="80">
+</p>
 
 ---
 
