@@ -242,20 +242,22 @@ Adaptación del sistema a dispositivos móviles utilizando Bootstrap 5.
 
 ---
 
-Las capturas se encuentran almacenadas en la carpeta `/capturas` del repositorio.
+Las capturas se encuentran almacenadas en la carpeta `/screenshots` del repositorio.
 --
 
 ## 👨‍💻 Autor
 
 <p align="center">
   <strong>Steven Ariel Rosero</strong><br>
+  <em>Haciendo que el sistema funcione, a base de fe y café ☕</em><br>
   Estudiante de Ingeniería en Sistemas<br>
   Pontificia Universidad Católica del Ecuador
 </p>
 
 <p align="center">
-  <img src="assets/puce.png" alt="PUCE" width="150">
+  <img src="assets/puce.png" alt="PUCE" width="120">
 </p>
+
 
 ---
 
